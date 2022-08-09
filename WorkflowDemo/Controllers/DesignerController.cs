@@ -2,12 +2,18 @@
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using OptimaJet.Workflow;
+using OptimaJet.Workflow.Core.Runtime;
 using WorkflowLib;
 
 namespace WorkflowDemo.Controllers
 {
     public class DesignerController : Controller
     {
+        public IActionResult Index()
+        {
+            return View();
+        }
+        
         public IActionResult API()
         {
             Stream filestream = null;

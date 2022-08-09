@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <PackageReference Include="WorkflowEngine.NETCore-Core" Version="6.0.2" />
-    <PackageReference Include="WorkflowEngine.NETCore-Designer" Version="4.2.8" />
     <PackageReference Include="WorkflowEngine.NETCore-ProviderForMSSQL" Version="6.0.2" />
   </ItemGroup>
 
